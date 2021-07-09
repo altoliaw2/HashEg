@@ -60,6 +60,10 @@ struct Hash{
             std::cout<< "\n";
         }
     }
+
+    public: void fn_ShowTmp(std::string s_Name){
+        std::cout<< str_Hash(s_Name) << "\n";
+    }
 };
 
 int main(){
@@ -71,5 +75,13 @@ int main(){
     o_HMap.fn_InsItem(new Man("Ally", 'F'));
     o_HMap.fn_InsItem(new Man("Bob", 'M'));
 
+    o_HMap.fn_GetRes();
+
+    o_HMap.fn_ShowTmp("Joe");
+    o_HMap.fn_ShowTmp("Sue");
+    o_HMap.fn_ShowTmp("Dan");
+    o_HMap.fn_ShowTmp("Nell");
+    o_HMap.fn_ShowTmp("Ally");
+    o_HMap.fn_ShowTmp("Bob");
     return 0;
 }

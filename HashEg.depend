@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1625825833 source:e:\codeworkshop\codeblock\projectdsalg\hasheg\main.cpp
+	<algorithm>
+	<functional>
+	<iostream>
+	<string>
+
